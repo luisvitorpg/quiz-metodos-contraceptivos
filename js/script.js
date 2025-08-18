@@ -159,6 +159,22 @@ function verificarResposta(pergunta, resposta) {
                 alert("Essa não é a resposta certa. Tente novamente.");
                 break;
         }
+    } else if (pergunta === 11) {
+        switch (resposta) {
+            case 1:
+                alert("Não foi dessa vez! Tente de novo!");
+                break;
+            case 2:
+                alert("Quase! Experimente outra opção.");
+                break;
+            case 3:
+                alert("Você foi muito bem! Resposta correta.");
+                window.location = 'pagina12.html';
+                break;
+            case 4:
+                alert("Continue tentando, você chega lá!");
+                break;
+        }
     }
 }
 
