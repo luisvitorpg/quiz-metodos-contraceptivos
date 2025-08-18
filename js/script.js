@@ -111,6 +111,22 @@ function verificarResposta(pergunta, resposta) {
                 window.location = 'pagina8.html'
                 break;
         }
+    } else if (pergunta === 8) {
+        switch (resposta) {
+            case 1:
+                alert("Ainda não! Tente de novo, você consegue!");
+                break;
+            case 2:
+                alert("Você foi muito bem! Resposta correta.");
+                window.location = 'pagina9.html';
+                break;
+            case 3:
+                alert("Quase lá! Tente novamente.");
+                break;
+            case 4:
+                alert("Boa tentativa! Experimente outra opção.");
+                break;
+        }
     }
 }
 
