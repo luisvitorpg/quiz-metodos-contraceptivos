@@ -127,6 +127,38 @@ function verificarResposta(pergunta, resposta) {
                 alert("Boa tentativa! Experimente outra opção.");
                 break;
         }
+    } else if (pergunta === 9) {
+        switch (resposta) {
+            case 1:
+                alert("Resposta errada. Tente novamente!");
+                break;
+            case 2:
+                alert("Não foi dessa vez. Tente de novo!");
+                break;
+            case 3:
+                alert("Muito bem! Você acertou.");
+                window.location = 'pagina10.html';
+                break;
+            case 4:
+                alert("Boa tentativa, mas não é essa a resposta.");
+                break;
+        }
+    } else if (pergunta === 10) {
+        switch (resposta) {
+            case 1:
+                alert("Resposta incorreta. Tente novamente!");
+                break;
+            case 2:
+                alert("Quase lá! Tente outra vez.");
+                break;
+            case 3:
+                alert("Você foi muito bem! Resposta correta.");
+                window.location = 'pagina11.html';
+                break;
+            case 4:
+                alert("Essa não é a resposta certa. Tente novamente.");
+                break;
+        }
     }
 }
 
