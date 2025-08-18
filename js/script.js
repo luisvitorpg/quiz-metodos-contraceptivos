@@ -95,6 +95,22 @@ function verificarResposta(pergunta, resposta) {
                 window.location = 'pagina7.html'
                 break;
         }
+    } else if (pergunta === 7) {
+        switch (resposta) {
+            case 1:
+                alert("Errou!")
+                break;
+            case 2:
+                alert("Não é essa a resposta. Tente novamente!")
+                break;
+            case 3:
+                alert("Essa não é a resposta correta. Tente outra.")
+                break;
+            case 4:
+                alert("Muito bem! Você acertou.")
+                window.location = 'pagina8.html'
+                break;
+        }
     }
 }
 
