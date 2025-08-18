@@ -165,14 +165,30 @@ function verificarResposta(pergunta, resposta) {
                 alert("Não foi dessa vez! Tente de novo!");
                 break;
             case 2:
-                alert("Quase! Experimente outra opção.");
-                break;
-            case 3:
                 alert("Você foi muito bem! Resposta correta.");
                 window.location = 'pagina12.html';
                 break;
+            case 3:
+                alert("Quase! Experimente outra opção.");
+                break;
             case 4:
                 alert("Continue tentando, você chega lá!");
+                break;
+        }
+    } else if (pergunta === 12) {
+        switch (resposta) {
+            case 1:
+                alert("Resposta errada. Tente novamente!");
+                break;
+            case 2:
+                alert("Boa tentativa, mas não é essa a resposta.");
+                break;
+            case 3:
+                alert("Você foi muito bem! Resposta correta.");
+                window.location = 'pagina13.html';
+                break;
+            case 4:
+                alert("Essa não é a resposta certa. Tente novamente.");
                 break;
         }
     }
