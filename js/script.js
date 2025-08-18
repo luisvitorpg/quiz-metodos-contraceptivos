@@ -79,6 +79,22 @@ function verificarResposta(pergunta, resposta) {
                 alert("Não foi dessa vez. Tente de novo!")
                 break;
         }
+    } else if (pergunta === 6) {
+        switch (resposta) {
+            case 1:
+                alert("Resposta errada. Tente novamente!")
+                break;
+            case 2:
+                alert("Resposta incorreta. Vamos tentar mais uma vez?")
+                break;
+            case 3:
+                alert("Que pena, você errou. Tente novamente!")
+                break;
+            case 4:
+                alert("Você foi muito bem! Resposta correta.")
+                window.location = 'pagina7.html'
+                break;
+        }
     }
 }
 
