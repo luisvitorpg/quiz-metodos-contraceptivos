@@ -239,6 +239,22 @@ function verificarResposta(pergunta, resposta) {
                 alert("Boa tentativa, mas você errou. Experimente novamente.");
                 break;
         }
+    } else if (pergunta === 16) {
+        switch (resposta) {
+            case 1:
+                alert("Quase! Tente outra opção.");
+                break;
+            case 2:
+                alert("Excelente! Você acertou.");
+                window.location = 'pagina17.html';
+                break;
+            case 3:
+                alert("Não foi dessa vez! Continue tentando.");
+                break;
+            case 4:
+                alert("Boa tentativa! Experimente novamente.");
+                break;
+        }
     }
 }
 
