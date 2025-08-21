@@ -309,14 +309,14 @@ function verificarResposta(pergunta, resposta) {
                 alert("Não foi dessa vez! Tente outra opção.");
                 break;
             case 2:
-                alert("Parabéns! Você foi ótimo!");
-                window.location = 'fim.html';
+                alert("Boa tentativa! Continue tentando.");
                 break;
             case 3:
                 alert("Quase! Experimente novamente.");
                 break;
             case 4:
-                alert("Boa tentativa! Continue tentando.");
+                alert("Parabéns! Você foi ótimo!");
+                window.location = 'fim.html';
                 break;
         }
     }
