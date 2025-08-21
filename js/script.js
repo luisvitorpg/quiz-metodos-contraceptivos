@@ -207,6 +207,22 @@ function verificarResposta(pergunta, resposta) {
                 window.location = 'pagina14.html';
                 break;
         }
+    } else if (pergunta === 14) {
+        switch (resposta) {
+            case 1:
+                alert("Parabéns! Você acertou.");
+                window.location = 'pagina15.html';
+                break;
+            case 2:
+                alert("Quase lá! Experimente outra opção.");
+                break;
+            case 3:
+                alert("Boa tentativa! Tente novamente.");
+                break;
+            case 4:
+                alert("Não foi dessa vez! Continue tentando.");
+                break;
+        }
     }
 }
 
