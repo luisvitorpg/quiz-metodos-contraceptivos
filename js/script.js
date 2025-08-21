@@ -255,6 +255,22 @@ function verificarResposta(pergunta, resposta) {
                 alert("Boa tentativa! Experimente novamente.");
                 break;
         }
+    } else if (pergunta === 17) {
+        switch (resposta) {
+            case 1:
+                alert("Resposta errada. Tente novamente!");
+                break;
+            case 2:
+                alert("Muito bem! Você acertou.");
+                window.location = 'pagina18.html';
+                break;
+            case 3:
+                alert("Quase lá! Tente outra vez.");
+                break;
+            case 4:
+                alert("Essa não é a resposta certa. Tente novamente.");
+                break;
+        }
     }
 }
 
