@@ -287,6 +287,22 @@ function verificarResposta(pergunta, resposta) {
                 alert("Essa não é a resposta certa. Tente outro.");
                 break;
         }
+    } else if (pergunta === 19) {
+        switch (resposta) {
+            case 1:
+                alert("Não está certo. Tente outra!");
+                break;
+            case 2:
+                alert("Resposta errada. Tente novamente!");
+                break;
+            case 3:
+                alert("Está errada. Tente novamente!");
+                break;
+            case 4:
+                alert("Excelente! Você acertou!");
+                window.location = 'pagina20.html';
+                break;
+        }
     }
 }
 
