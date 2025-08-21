@@ -39,7 +39,7 @@
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:"Arial", sans-serif;
 	font-size:17px;
 	font-weight:bold;
 	padding:11px 16px;
@@ -66,4 +66,12 @@ body {
     background-color: cadetblue;
     font-family: 'Ubuntu Sans', sans-serif;
     font-weight: 400;
+}
+
+.fimContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
 }

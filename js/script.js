@@ -303,9 +303,27 @@ function verificarResposta(pergunta, resposta) {
                 window.location = 'pagina20.html';
                 break;
         }
+    } else if (pergunta === 20) {
+        switch (resposta) {
+            case 1:
+                alert("Não foi dessa vez! Tente outra opção.");
+                break;
+            case 2:
+                alert("Parabéns! Você foi ótimo!");
+                window.location = 'fim.html';
+                break;
+            case 3:
+                alert("Quase! Experimente novamente.");
+                break;
+            case 4:
+                alert("Boa tentativa! Continue tentando.");
+                break;
+        }
     }
 }
-
+function voltarInicio() {
+    window.location = '/';
+}
 function startQuiz() {
     window.location = 'pagina1.html';
 }
